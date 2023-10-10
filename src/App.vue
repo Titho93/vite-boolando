@@ -9,6 +9,8 @@ export default {
   <h1>Booleando</h1>
   
 </template>
-<style>
+<style lang="scss" >
+
+@use './scss/main.scss';
 
 </style>
