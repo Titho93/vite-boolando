@@ -16,9 +16,21 @@ export default {
                     href: '#',
                     text: 'Bambino'
                 },
+            ],
+            action: [
+                {
+                    font: 'fa-regular fa-user'
+                },
+                {
+                    font: 'fa-regular fa-heart'
+                },
+                {
+                    font: 'fa-solid fa-bag-shopping'
+                },
             ]
         }
     }
+
 }
 </script>
 
@@ -40,9 +52,9 @@ export default {
                     <div class="logo"></div>
                     <div class="action">
                         <ul>
-                            <li> <i class="fa-regular fa-user"></i></li>
-                            <li><i class="fa-regular fa-heart"></i></li>
-                            <li><i class="fa-solid fa-bag-shopping"></i></li>
+                            <li v-for="(item,index) in action"
+                            :key="index"
+                            ><i :class="item.font"></i></li>
                         </ul>
                     </div>
                 </div>
