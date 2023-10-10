@@ -1,6 +1,46 @@
 <script>
 export default {
-    name: 'Footer'
+    name: 'Footer',
+    data(){
+        return{
+            menu: [
+                {
+                    href: '#',
+                    text: 'Informazioni legali'   
+                },
+                {
+                    href: '#',
+                    text: 'Informativa sulla privacy'   
+                },
+                {
+                    href: '#',
+                    text: 'Diritto di recesso'   
+                },
+            ],
+            social: [
+                {
+                    href: '#',
+                    font: 'fa-brands fa-square-twitter'
+                },
+                {
+                    href: '#',
+                    font: 'fa-brands fa-square-facebook'
+                },
+                {
+                    href: '#',
+                    font: 'fa-brands fa-square-instagram'
+                },
+                {
+                    href: '#',
+                    font: 'fa-brands fa-square-pinterest'
+                },
+                {
+                    href: '#',
+                    font: 'fa-brands fa-square-youtube'
+                },
+            ]
+        }
+    }
 }
 </script>
 
@@ -12,19 +52,18 @@ export default {
                 <div class="menu">
                     <h2><strong>Boolando s.r.l</strong></h2>
                     <ul class="privacy">
-                        <li><a href="#">Informazioni legali</a></li>
-                        <li><a href="#">Informativa sulla privacy</a></li>
-                        <li><a href="#">Diritto di recesso</a></li>            
+                        <li v-for="(item,index) in menu"
+                        :key="index"
+                        ><a :href="item.href">{{ item.text }}</a></li>
                     </ul>
                 </div>
                 <div class="social">
                     <span><strong>Trovaci anche su</strong></span>
                     <ul>
-                        <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-square-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-square-youtube"></i></a></li>
+                        <li v-for="(item,index) in social"
+                        :key="index"
+                        ><a :href="item.href"
+                        ><i :class="item.font"></i></a></li>
                     </ul>
                 </div>
             </div>
