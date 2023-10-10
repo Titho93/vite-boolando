@@ -1,6 +1,24 @@
 <script>
 export default {
-    name: 'Header'
+    name: 'Header',
+    data(){
+        return{
+            menu: [
+                {
+                    href: '#',
+                    text: 'Donna'
+                },
+                {
+                    href: '#',
+                    text: 'Uomo'
+                },
+                {
+                    href: '#',
+                    text: 'Bambino'
+                },
+            ]
+        }
+    }
 }
 </script>
 
@@ -13,10 +31,9 @@ export default {
                 <div class="bar">
                     <div class="menu">
                         <ul>
-                            <li><a href="#"><strong>Donna</strong></a></li>
-                            <li><a href="#"><strong>Uomo</strong></a></li>
-                            <li><a href="#"><strong>Bambini</strong></a></li>
-                                        
+                            <li v-for="(item,index) in menu"
+                            :key="index"
+                            ><a :href="item.href">{{ item.text }}</a></li>
                         </ul>
                     </div>
                
