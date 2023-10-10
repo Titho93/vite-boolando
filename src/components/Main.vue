@@ -14,8 +14,8 @@ export default {
                 <!-- 1 card  -->
                 <div class="card">
                     <div class="img">
-                    <img class="model" src="img/1.webp" alt="1.webp">
-                    <img class="model-2" src="img/1b.webp" alt="1b.webp">
+                    <img class="model" src="../assets/1.webp" alt="1.webp">
+                    <img class="model-2" src="../assets/1b.webp" alt="1b.webp">
                     <span class="heart"><i class="fa-solid fa-heart"></i></span>
                     <span class="discount">-50%</span>
                     <span class="eco">Sostenibilità</span>
@@ -33,8 +33,8 @@ export default {
                 <!-- 2 card  -->
                 <div class="card">
                     <div class="img">
-                    <img class="model" src="img/2.webp" alt="2.webp">
-                    <img class="model-2" src="img/2b.webp" alt="2b.webp">
+                    <img class="model" src="../assets/2.webp" alt="2.webp">
+                    <img class="model-2" src="../assets/2b.webp" alt="2b.webp">
                     <span class="heart"><i class="fa-solid fa-heart"></i></span>
                     <span class="discount">-30%</span>
                     </div>
@@ -51,8 +51,8 @@ export default {
                 <!-- 3 card  -->
                 <div class="card">
                     <div class="img">
-                    <img class="model" src="img/3.webp" alt="3.webp">
-                    <img class="model-2" src="img/3b.webp" alt="3b.webp">
+                    <img class="model" src="../assets/3.webp" alt="3.webp">
+                    <img class="model-2" src="../assets/3b.webp" alt="3b.webp">
                     <span class="heart"><i class="fa-solid fa-heart"></i></span>
                     <span class="discount">-30%</span>
                     </div>
@@ -69,8 +69,8 @@ export default {
                 <!-- 4 card  -->
                 <div class="card">
                     <div class="img">
-                    <img class="model" src="img/4.webp" alt="4.webp">
-                    <img class="model-2" src="img/4b.webp" alt="4b.webp">
+                    <img class="model" src="../assets/4.webp" alt="4.webp">
+                    <img class="model-2" src="../assets/4b.webp" alt="4b.webp">
                     <span class="heart"><i class="fa-solid fa-heart"></i></span>
                     <span class="discount">-50%</span>
                     <span class="eco">Sostenibilità</span>
@@ -88,8 +88,8 @@ export default {
                 <!-- 5 card  -->
                 <div class="card">
                     <div class="img">
-                    <img class="model" src="img/5.webp" alt="5.webp">
-                    <img class="model-2" src="img/5b.webp" alt="5b.webp">
+                    <img class="model" src="../assets/5.webp" alt="5.webp">
+                    <img class="model-2" src="../assets/5b.webp" alt="5b.webp">
                     <span class="heart"><i class="fa-solid fa-heart"></i></span>
                     </div>
                     <div class="bio">
@@ -104,8 +104,8 @@ export default {
                 <!-- 6 card  -->
                 <div class="card">
                     <div class="img">
-                    <img class="model" src="img/6.webp" alt="6.webp">
-                    <img class="model-2" src="img/6b.webp" alt="6b.webp">
+                    <img class="model" src="../assets/6.webp" alt="6.webp">
+                    <img class="model-2" src="../assets/6b.webp" alt="6b.webp">
                     <span class="heart"><i class="fa-solid fa-heart"></i></span>
                     <span class="eco single">Sostenibilità</span>
                     </div>
