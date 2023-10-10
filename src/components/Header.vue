@@ -66,10 +66,6 @@ header {
         left: 0;
         color: $text-primary-color;
     }
-    ul {
-    display: flex;
-    list-style-type: none;
-    }
     .action {
         cursor: pointer;
         right: 0;

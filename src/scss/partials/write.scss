@@ -20,12 +20,17 @@ h4 {
     color: $text-secondary-color;
 }
 
-li {
-    padding: 5px;
+ul {
+    display: flex;
+    list-style-type: none;
 
-    a {
-        color: $text-primary-color;
-        text-decoration: none;
+    li {
         padding: 5px;
+    
+        a {
+            color: $text-primary-color;
+            text-decoration: none;
+            padding: 5px;
+        }
     }
 }
