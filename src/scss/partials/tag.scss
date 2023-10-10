@@ -15,9 +15,10 @@
     font-size: 15px;
     bottom: 150px;
     padding: 5px;
-    background-color: red;
-    color: white;
+    background-color: $color-discount;
+    color: $text-primary-color;
     z-index: 3;
+    left: 0;
 }
 
 .eco {
@@ -26,8 +27,8 @@
     left: 50px;
     bottom: 150px;
     padding: 5px;
-    background-color: green;
-    color: white;
+    background-color: $color-eco;
+    color: $text-primary-color;
     z-index: 3;
 }
 

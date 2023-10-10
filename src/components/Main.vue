@@ -130,6 +130,7 @@ export default {
 
 main {
     .cards {
+        width: 100%;
         padding-top: 100px;
         display: flex;
         justify-content: space-between;

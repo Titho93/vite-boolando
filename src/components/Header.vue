@@ -50,12 +50,6 @@ header {
         background-color: $primary-color;
         width: 100%
     }    
-    .container {
-        margin: 0 auto;
-        width: 90%;
-        max-width: 1200px;
-        padding: 20px 0;
-    }
     .bar {
         display: flex;
         justify-content: space-between;
