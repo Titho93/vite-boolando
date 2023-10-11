@@ -20,15 +20,15 @@ export default {
             <img class="model" :src="`/assets/${cardObj.primaryImage}`" alt="1.webp">
             <img class="model-2" :src="`/assets/${cardObj.secondaryImage}`" alt="1b.webp">
             <span class="heart"><i class="fa-solid fa-heart"></i></span>
-            <span class="discount">-50%</span>
-            <span class="eco">Sostenibilità</span>
+            <span class="discount">{{ cardObj.discount }}</span>
+            <span class="eco">{{ cardObj.sostenibilita}}</span>
         </div>
         <div class="bio">
-            <h4>Levi's</h4>
-            <h3>Relaxed fit tee unisex</h3>  
+            <h4>{{ cardObj.marca  }}</h4>
+            <h3>{{ cardObj.modello  }}</h3>  
             <div class="price">
-                <span class="low-price"><strong>14,99 €</strong></span>
-                <span class="true-price"><s>29,99</s></span>
+                <span class="low-price"><strong>{{ cardObj.fullPrice }}</strong></span>
+                <span class="true-price"><s>{{ cardObj.lastPrice }}</s></span>
             </div>
         </div>
     </div>
