@@ -83,9 +83,11 @@ footer {
         display: flex;
         justify-content: space-between;
     }
-    .privacy li {
-        font-size: 13px;
-    }
+    .privacy{
+        li {
+            font-size: 13px;
+        }
+    }    
     .social {
         margin-right: 50px;
         color: $text-primary-color;
