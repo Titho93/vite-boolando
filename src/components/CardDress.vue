@@ -17,8 +17,8 @@ export default {
 
     <div class="card">
         <div class="img">
-            <img class="model" src="../assets/1.webp" alt="1.webp">
-            <img class="model-2" src="../assets/1b.webp" alt="1b.webp">
+            <img class="model" :src="`/assets/${cardObj.primaryImage}`" alt="1.webp">
+            <img class="model-2" :src="`/assets/${cardObj.secondaryImage}`" alt="1b.webp">
             <span class="heart"><i class="fa-solid fa-heart"></i></span>
             <span class="discount">-50%</span>
             <span class="eco">Sostenibilità</span>
@@ -35,6 +35,6 @@ export default {
   
 </template>
 
-<style>
+<style lang="scss">
 
 </style>
