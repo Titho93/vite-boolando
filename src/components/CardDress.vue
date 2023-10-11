@@ -27,8 +27,8 @@ export default {
             <h4>{{ cardObj.marca  }}</h4>
             <h3>{{ cardObj.modello  }}</h3>  
             <div class="price">
-                <span class="low-price"><strong>{{ cardObj.fullPrice }}</strong></span>
-                <span class="true-price"><s>{{ cardObj.lastPrice }}</s></span>
+                <span class="low-price"><strong>{{ cardObj.lastPrice }}</strong></span>
+                <span class="true-price"><s>{{ cardObj.fullPrice }}</s></span>
             </div>
         </div>
     </div>

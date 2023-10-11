@@ -41,7 +41,6 @@ export default [
     primaryImage: "5.webp",
     secondaryImage: "5b.webp",
     discount: "-50%",
-    sostenibilita: "Sostenibilità",
     marca: "Maya Deluxe",
     modello: "STRIPE BODICE",
     fullPrice: null,
@@ -50,6 +49,7 @@ export default [
   {
     primaryImage: "6.webp",
     secondaryImage: "6b.webp",
+    sostenibilita: "Sostenibilità",
     discount: null,
     marca: "Esprit",
     modello: "MAGLIONE - BLACK",
